@@ -1,0 +1,55 @@
+# --- Secrets: never commit anything that authenticates to anything ---
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.*
+credentials.*
+*_token
+*.token
+service-account*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/*.egg-info/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# --- Files the notebook fetches at run time (never commit; they belong to the course repo) ---
+metrics.py
+backtest.py
+retail_demand.csv
+workforce_demand.csv
+economic_indicator.csv
+intermittent_demand.csv
+/common/
+/data/
+
+# --- Generated / scratch ---
+*.log
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+scratch/
+out/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
