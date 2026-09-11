@@ -87,8 +87,8 @@ Suggested topics: `time-series` `forecasting` `sarima` `lightgbm`
       table of five conditions that would change the recommendation.
 - [x] **The repository has a README, a `.gitignore`, meaningful commit
       history, and states the training programme and cohort dates.** README
-      and `.gitignore` present; ten incremental commits
-      following the actual order of the work rather than one dump commit; programme named in the
+      and `.gitignore` present; incremental commits following the
+      actual order of the work rather than one dump commit at the deadline; programme named in the
       README header and the notebook header (cohort dates need your input, see
       above).
 - [x] **No API key or credential appears anywhere in the notebook or the git

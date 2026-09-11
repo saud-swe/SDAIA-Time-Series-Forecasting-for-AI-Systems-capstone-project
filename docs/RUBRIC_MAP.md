@@ -190,6 +190,6 @@ recommendation" table lists five concrete conditions that would flip it.
 | Clear, comprehensive project description | `README.md`, plus the repository "About" blurb in `docs/SUBMISSION_CHECKLIST.md` |
 | Professional README — project idea, dataset choice and why, how to run | `README.md`, with the Colab badge as the expected path |
 | Proper technical documentation beyond the notebook's markdown | `docs/TECHNICAL.md`, `docs/RESULTS.md`, this file |
-| Good Git practices — meaningful incremental commits, sane structure, `.gitignore` | ten commits, one per stage of the work; layout in `README.md`; `.gitignore` excludes secrets, caches and generated files |
+| Good Git practices — meaningful incremental commits, sane structure, `.gitignore` | incremental commits, one per stage of the work (see `git log`); layout in `README.md`; `.gitignore` excludes secrets, caches and generated files |
 | Training programme name and cohort dates | `README.md` header and the notebook's header cell |
 | Link to SDAIA Academy's GitHub | `README.md` header and the notebook's header cell |
