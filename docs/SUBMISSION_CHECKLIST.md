@@ -95,7 +95,15 @@ Suggested topics: `time-series` `forecasting` `sarima` `lightgbm`
       history.** Nothing in this project authenticates to anything. The
       `.gitignore` excludes `.env`, `*.key`, `*.pem`, credentials and token
       files as a standing guard. To confirm before pushing:
-      `git log -p | grep -iE "api[_-]?key|secret|token|password"` → no matches.
+
+      ```bash
+      git log -p | grep -inE "api[_-]?key|secret|password|bearer |sk-[a-zA-Z0-9]{20}|ghp_"
+      ```
+
+      Verified: the only matches are this checklist's own wording, the
+      `.gitignore` comment header, and the commit message that introduced it —
+      the scan matches the *word*, not a credential. Read the hits rather than
+      trusting the count.
 
 ## Things the brief encourages but does not score
 
