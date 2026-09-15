@@ -10,7 +10,7 @@ needed the author's input — GitHub username and cohort dates — are filled in
 
 | | |
 |---|---|
-| **Author** | Saud |
+| **Authors** | Saud ALajmi, Fahad Alanazi, Hamed Aldkhyyal |
 | **GitHub** | [`saud-swe`](https://github.com/saud-swe) |
 | **Programme** | SDAIA Academy — Time Series Forecasting for AI Systems |
 | **Cohort** | 15 September 2026 |
