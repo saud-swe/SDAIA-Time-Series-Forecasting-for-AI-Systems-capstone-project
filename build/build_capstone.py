@@ -14,8 +14,8 @@ import pathlib
 
 import nbformat as nbf
 
-GH_USER = "YOUR-GITHUB-USERNAME"
-REPO_NAME = "sdaia-timeseries-capstone"
+GH_USER = "saud-swe"
+REPO_NAME = "SDAIA-Time-Series-Forecasting-for-AI-Systems-capstone-project"
 NOTEBOOK = "capstone_forecasting_report.ipynb"
 
 cells: list = []
@@ -49,7 +49,7 @@ md("""
 |---|---|
 | **Author** | Saud |
 | **Programme** | SDAIA Academy — Time Series Forecasting for AI Systems |
-| **Cohort** | `[cohort dates — fill in before submitting]` |
+| **Cohort** | `15 September 2026` |
 | **Dataset** | `data/retail_demand.csv`, `region = Riyadh`, `category = Grocery` |
 | **Course repository** | <https://github.com/MohammadYusif/time-series-forecasting-ai-systems> |
 | **SDAIA Academy** | <https://github.com/SDAIAAcademy> |

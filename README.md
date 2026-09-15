@@ -2,19 +2,13 @@
 
 **Capstone project — SDAIA Academy, *Time Series Forecasting for AI Systems***
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/sdaia-timeseries-capstone/blob/main/capstone_forecasting_report.ipynb)
-
-> **Before you push this repo:** replace `YOUR-GITHUB-USERNAME` (in this file
-> and in the notebook's badge cell) with your GitHub username, and fill in the
-> cohort dates marked `[cohort dates]` below and in the notebook header.
-> See [`docs/SUBMISSION_CHECKLIST.md`](docs/SUBMISSION_CHECKLIST.md) — one
-> `sed` command does both.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saud-swe/SDAIA-Time-Series-Forecasting-for-AI-Systems-capstone-project/blob/main/capstone_forecasting_report.ipynb)
 
 | | |
 |---|---|
 | **Author** | Saud |
 | **Training programme** | SDAIA Academy — Time Series Forecasting for AI Systems |
-| **Cohort** | `[cohort dates]` |
+| **Cohort** | 15 September 2026 |
 | **Deliverable** | [`capstone_forecasting_report.ipynb`](capstone_forecasting_report.ipynb) — one notebook, run top to bottom, output committed |
 | **Course repository** | <https://github.com/MohammadYusif/time-series-forecasting-ai-systems> |
 | **SDAIA Academy** | <https://github.com/SDAIAAcademy> |
@@ -108,8 +102,8 @@ no GPU, no paid service, no account beyond Colab itself.** Full run is about
 ### Locally
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/sdaia-timeseries-capstone.git
-cd sdaia-timeseries-capstone
+git clone https://github.com/saud-swe/SDAIA-Time-Series-Forecasting-for-AI-Systems-capstone-project.git
+cd SDAIA-Time-Series-Forecasting-for-AI-Systems-capstone-project
 pip install -r requirements.txt
 jupyter lab capstone_forecasting_report.ipynb
 ```

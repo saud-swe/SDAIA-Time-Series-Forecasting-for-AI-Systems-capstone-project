@@ -3,39 +3,24 @@
 The checklist from `capstone.qmd`, with the state of this repository against
 each item.
 
-## Two things you must fill in first
+## Status
 
-Everything else is done. These two need your input:
+Everything on the brief's checklist is done. The two items that previously
+needed the author's input — GitHub username and cohort dates — are filled in:
 
-**1. Your GitHub username** — appears in the Colab badge in `README.md` and in
-the notebook's badge cell. From the repository root:
+| | |
+|---|---|
+| **Author** | Saud |
+| **GitHub** | [`saud-swe`](https://github.com/saud-swe) |
+| **Programme** | SDAIA Academy — Time Series Forecasting for AI Systems |
+| **Cohort** | 15 September 2026 |
+| **Repository** | `SDAIA-Time-Series-Forecasting-for-AI-Systems-capstone-project` |
 
-```bash
-grep -rl "YOUR-GITHUB-USERNAME" . --exclude-dir=.git
-sed -i "s/YOUR-GITHUB-USERNAME/your-actual-username/g" README.md capstone_forecasting_report.ipynb build/build_capstone.py
-```
-
-(On macOS use `sed -i '' "s/.../.../g" ...`.)
-
-The repository name is assumed to be `sdaia-timeseries-capstone`. If you name
-it something else, replace that too.
-
-**2. Your cohort dates** — appear in `README.md` and in the notebook's header
-cell as `[cohort dates]`:
-
-```bash
-sed -i "s/\[cohort dates\]/1-3 October 2026/g" README.md capstone_forecasting_report.ipynb build/build_capstone.py
-```
-
-Then re-check that the notebook still opens cleanly:
+To confirm the notebook still parses after any edit:
 
 ```bash
 python -c "import json; json.load(open('capstone_forecasting_report.ipynb')); print('notebook JSON valid')"
 ```
-
-Also add **"Saud"** to the author row if you would rather it showed your full
-name — it is in the notebook's second markdown cell and in `README.md`'s
-header table.
 
 ## Suggested GitHub "About" description
 
@@ -88,9 +73,8 @@ Suggested topics: `time-series` `forecasting` `sarima` `lightgbm`
 - [x] **The repository has a README, a `.gitignore`, meaningful commit
       history, and states the training programme and cohort dates.** README
       and `.gitignore` present; incremental commits following the
-      actual order of the work rather than one dump commit at the deadline; programme named in the
-      README header and the notebook header (cohort dates need your input, see
-      above).
+      actual order of the work rather than one dump commit at the deadline; programme and cohort dates
+      both stated in the README header and the notebook header.
 - [x] **No API key or credential appears anywhere in the notebook or the git
       history.** Nothing in this project authenticates to anything. The
       `.gitignore` excludes `.env`, `*.key`, `*.pem`, credentials and token
