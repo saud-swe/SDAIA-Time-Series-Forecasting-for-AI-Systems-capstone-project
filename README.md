@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **Authors** | Saud ALajmi, Fahad Alanazi, Hamed Aldkhyyal  |
+| **Authors** | Saud Alajmi, Fahad Alanazi, Hamed Aldkhyyal  |
 | **Training programme** | SDAIA Academy — Time Series Forecasting for AI Systems |
 | **Cohort** | 15 September 2026 |
 | **Deliverable** | [`capstone_forecasting_report.ipynb`](capstone_forecasting_report.ipynb) — one notebook, run top to bottom, output committed |
